@@ -70,3 +70,6 @@ npm install
 npm run dev
 VITE_GEMINI_API_KEY=your_api_key_here
 
+---
+## Link for App
+https://nutricopilot-112180359347.us-west1.run.app/
