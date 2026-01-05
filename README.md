@@ -34,3 +34,39 @@ Unlike traditional OCR tools, NutriCoPilot acts as a **decision-support system**
 
 ## 🧠 Architecture Overview
 
+
+---
+
+## 🔍 How It Works
+
+1. User uploads a food label image or pastes ingredients.
+2. The app encodes the input and sends it to Gemini.
+3. Gemini performs OCR + reasoning in a single pass.
+4. Output is validated against a strict TypeScript schema.
+5. Results are visualized in a bento-style dashboard.
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🛣️ Roadmap
+
+- 📱 Progressive Web App (Offline Camera Access)
+- 👤 Personalized Health Profiles (Diabetic, Fitness, Kids)
+- 🗂️ Scan History & Local Caching
+- 🌐 API layer for mobile integration
+
+---
+
+## ⚙️ Setup
+
+```bash
+git clone https://github.com/your-username/nutricopilot.git
+cd nutricopilot
+npm install
+npm run dev
+VITE_GEMINI_API_KEY=your_api_key_here
+
